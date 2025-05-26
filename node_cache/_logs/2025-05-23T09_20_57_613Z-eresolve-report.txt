@@ -1,0 +1,3321 @@
+'Log files:
+C:\Users\17870\Desktop\react-travel\node_cache\_logs\2025-05-23T09_20_57_613Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: video-react@0.16.0
+Found: react@19.1.0
+node_modules/react
+  peer react@">=16.0.0" from @ant-design/cssinjs@1.23.0
+  node_modules/@ant-design/cssinjs
+    @ant-design/cssinjs@"^1.21.0" from @ant-design/cssinjs-utils@1.1.3
+    node_modules/@ant-design/cssinjs-utils
+      @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @ant-design/cssinjs@"^1.23.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @ant-design/cssinjs-utils@1.1.3
+  node_modules/@ant-design/cssinjs-utils
+    @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.0.0" from @ant-design/icons@5.6.1
+  node_modules/@ant-design/icons
+    @ant-design/icons@"^5.6.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @ant-design/react-slick@1.1.2
+  node_modules/@ant-design/react-slick
+    @ant-design/react-slick@"~1.1.2" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/color-picker@2.0.1
+  node_modules/@rc-component/color-picker
+    @rc-component/color-picker@"~2.0.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/context@1.4.0
+  node_modules/@rc-component/context
+    @rc-component/context@"^1.4.0" from rc-table@7.50.5
+    node_modules/rc-table
+      rc-table@"~7.50.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/mutate-observer@1.1.0
+  node_modules/@rc-component/mutate-observer
+    @rc-component/mutate-observer@"^1.1.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/portal@1.1.2
+  node_modules/@rc-component/portal
+    @rc-component/portal@"^1.0.0-9" from @rc-component/tour@1.15.1
+    node_modules/@rc-component/tour
+      @rc-component/tour@"~1.15.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @rc-component/portal@"^1.1.0" from @rc-component/trigger@2.2.6
+    node_modules/@rc-component/trigger
+      @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.2.6" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    @rc-component/portal@"^1.0.0-8" from rc-dialog@9.6.0
+    node_modules/rc-dialog
+      rc-dialog@"~9.6.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dialog@"~9.6.0" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    @rc-component/portal@"^1.1.1" from rc-drawer@7.2.0
+    node_modules/rc-drawer
+      rc-drawer@"~7.2.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @rc-component/portal@"^1.0.2" from rc-image@7.12.0
+    node_modules/rc-image
+      rc-image@"~7.12.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/qrcode@1.0.0
+  node_modules/@rc-component/qrcode
+    @rc-component/qrcode@"~1.0.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/tour@1.15.1
+  node_modules/@rc-component/tour
+    @rc-component/tour@"~1.15.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from @rc-component/trigger@2.2.6
+  node_modules/@rc-component/trigger
+    @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+    node_modules/@rc-component/tour
+      @rc-component/tour@"~1.15.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.2.6" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+    node_modules/rc-dropdown
+      rc-dropdown@"~4.2.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+    node_modules/rc-menu
+      rc-menu@"~9.16.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+    node_modules/rc-picker
+      rc-picker@"~4.11.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+    node_modules/rc-tooltip
+      rc-tooltip@"~6.4.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@"^18.0.0 || ^19.0.0" from @testing-library/react@16.3.0
+  node_modules/@testing-library/react
+    @testing-library/react@"^16.3.0" from the root project
+  peer react@">=16.9.0" from antd@5.25.2
+  node_modules/antd
+    antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-cascader@3.34.0
+  node_modules/rc-cascader
+    rc-cascader@"~3.34.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-checkbox@3.5.0
+  node_modules/rc-checkbox
+    rc-checkbox@"~3.5.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-collapse@3.9.0
+  node_modules/rc-collapse
+    rc-collapse@"~3.9.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-dialog@9.6.0
+  node_modules/rc-dialog
+    rc-dialog@"~9.6.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-dialog@"~9.6.0" from rc-image@7.12.0
+    node_modules/rc-image
+      rc-image@"~7.12.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-drawer@7.2.0
+  node_modules/rc-drawer
+    rc-drawer@"~7.2.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.11.0" from rc-dropdown@4.2.1
+  node_modules/rc-dropdown
+    rc-dropdown@"~4.2.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-field-form@2.7.0
+  node_modules/rc-field-form
+    rc-field-form@"~2.7.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-image@7.12.0
+  node_modules/rc-image
+    rc-image@"~7.12.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.0.0" from rc-input@1.8.0
+  node_modules/rc-input
+    rc-input@"~1.8.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-input@"~1.8.0" from rc-input-number@9.5.0
+    node_modules/rc-input-number
+      rc-input-number@"~9.5.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-input@"~1.8.0" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-input@"~1.8.0" from rc-textarea@1.10.0
+    node_modules/rc-textarea
+      rc-textarea@"~1.10.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-input-number@9.5.0
+  node_modules/rc-input-number
+    rc-input-number@"~9.5.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-mentions@2.20.0
+  node_modules/rc-mentions
+    rc-mentions@"~2.20.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-menu@9.16.1
+  node_modules/rc-menu
+    rc-menu@"~9.16.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-menu@"~9.16.0" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-menu@"~9.16.0" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-motion@2.9.5
+  node_modules/rc-motion
+    rc-motion@"^2.0.0" from @rc-component/trigger@2.2.6
+    node_modules/@rc-component/trigger
+      @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.2.6" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-motion@"^2.9.5" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-motion@"^2.3.4" from rc-collapse@3.9.0
+    node_modules/rc-collapse
+      rc-collapse@"~3.9.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.3.0" from rc-dialog@9.6.0
+    node_modules/rc-dialog
+      rc-dialog@"~9.6.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dialog@"~9.6.0" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-motion@"^2.6.1" from rc-drawer@7.2.0
+    node_modules/rc-drawer
+      rc-drawer@"~7.2.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.6.2" from rc-image@7.12.0
+    node_modules/rc-image
+      rc-image@"~7.12.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.4.3" from rc-menu@9.16.1
+    node_modules/rc-menu
+      rc-menu@"~9.16.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-motion@"^2.9.0" from rc-notification@5.6.4
+    node_modules/rc-notification
+      rc-notification@"~5.6.4" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.4.4" from rc-segmented@2.7.0
+    node_modules/rc-segmented
+      rc-segmented@"~2.7.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.0.1" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-motion@"^2.6.2" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-motion@"^2.0.1" from rc-tree@5.13.1
+    node_modules/rc-tree
+      rc-tree@"~5.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-notification@5.6.4
+  node_modules/rc-notification
+    rc-notification@"~5.6.4" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-overflow@1.4.1
+  node_modules/rc-overflow
+    rc-overflow@"^1.3.1" from rc-menu@9.16.1
+    node_modules/rc-menu
+      rc-menu@"~9.16.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-overflow@"^1.3.2" from rc-picker@4.11.3
+    node_modules/rc-picker
+      rc-picker@"~4.11.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-overflow@"^1.3.1" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-pagination@5.1.0
+  node_modules/rc-pagination
+    rc-pagination@"~5.1.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-picker@4.11.3
+  node_modules/rc-picker
+    rc-picker@"~4.11.3" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-progress@4.0.0
+  node_modules/rc-progress
+    rc-progress@"~4.0.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-rate@2.13.1
+  node_modules/rc-rate
+    rc-rate@"~2.13.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-resize-observer@1.4.3
+  node_modules/rc-resize-observer
+    rc-resize-observer@"^1.3.1" from @rc-component/trigger@2.2.6
+    node_modules/@rc-component/trigger
+      @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.2.6" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.4.3" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.0.0" from rc-overflow@1.4.1
+    node_modules/rc-overflow
+      rc-overflow@"^1.3.1" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.2" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.4.0" from rc-picker@4.11.3
+    node_modules/rc-picker
+      rc-picker@"~4.11.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.1.0" from rc-table@7.50.5
+    node_modules/rc-table
+      rc-table@"~7.50.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.0.0" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.0.0" from rc-textarea@1.10.0
+    node_modules/rc-textarea
+      rc-textarea@"~1.10.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-resize-observer@"^1.0.0" from rc-virtual-list@3.18.6
+    node_modules/rc-virtual-list
+      rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+  peer react@">=16.0.0" from rc-segmented@2.7.0
+  node_modules/rc-segmented
+    rc-segmented@"~2.7.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@"*" from rc-select@14.16.8
+  node_modules/rc-select
+    rc-select@"~14.16.8" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-select@"~14.16.2" from rc-cascader@3.34.0
+    node_modules/rc-cascader
+      rc-cascader@"~3.34.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-select@"~14.16.2" from rc-tree-select@5.27.0
+    node_modules/rc-tree-select
+      rc-tree-select@"~5.27.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-slider@11.1.8
+  node_modules/rc-slider
+    rc-slider@"~11.1.8" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-steps@6.0.1
+  node_modules/rc-steps
+    rc-steps@"~6.0.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-switch@4.1.0
+  node_modules/rc-switch
+    rc-switch@"~4.1.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-table@7.50.5
+  node_modules/rc-table
+    rc-table@"~7.50.5" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-tabs@15.6.1
+  node_modules/rc-tabs
+    rc-tabs@"~15.6.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-textarea@1.10.0
+  node_modules/rc-textarea
+    rc-textarea@"~1.10.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-tooltip@6.4.0
+  node_modules/rc-tooltip
+    rc-tooltip@"~6.4.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@"*" from rc-tree@5.13.1
+  node_modules/rc-tree
+    rc-tree@"~5.13.1" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-tree@"~5.13.0" from rc-cascader@3.34.0
+    node_modules/rc-cascader
+      rc-cascader@"~3.34.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+    node_modules/rc-tree-select
+      rc-tree-select@"~5.27.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+  peer react@"*" from rc-tree-select@5.27.0
+  node_modules/rc-tree-select
+    rc-tree-select@"~5.27.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-upload@4.9.0
+  node_modules/rc-upload
+    rc-upload@"~4.9.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-util@5.44.4
+  node_modules/rc-util
+    rc-util@"^5.35.0" from @ant-design/cssinjs@1.23.0
+    node_modules/@ant-design/cssinjs
+      @ant-design/cssinjs@"^1.21.0" from @ant-design/cssinjs-utils@1.1.3
+      node_modules/@ant-design/cssinjs-utils
+        @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @ant-design/cssinjs@"^1.23.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.38.0" from @ant-design/cssinjs-utils@1.1.3
+    node_modules/@ant-design/cssinjs-utils
+      @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.31.1" from @ant-design/icons@5.6.1
+    node_modules/@ant-design/icons
+      @ant-design/icons@"^5.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.38.1" from @rc-component/color-picker@2.0.1
+    node_modules/@rc-component/color-picker
+      @rc-component/color-picker@"~2.0.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.27.0" from @rc-component/context@1.4.0
+    node_modules/@rc-component/context
+      @rc-component/context@"^1.4.0" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.24.4" from @rc-component/mutate-observer@1.1.0
+    node_modules/@rc-component/mutate-observer
+      @rc-component/mutate-observer@"^1.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.24.4" from @rc-component/portal@1.1.2
+    node_modules/@rc-component/portal
+      @rc-component/portal@"^1.0.0-9" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.1.0" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.0.0-8" from rc-dialog@9.6.0
+      node_modules/rc-dialog
+        rc-dialog@"~9.6.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dialog@"~9.6.0" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.1.1" from rc-drawer@7.2.0
+      node_modules/rc-drawer
+        rc-drawer@"~7.2.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.0.2" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.38.0" from @rc-component/qrcode@1.0.0
+    node_modules/@rc-component/qrcode
+      @rc-component/qrcode@"~1.0.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.24.4" from @rc-component/tour@1.15.1
+    node_modules/@rc-component/tour
+      @rc-component/tour@"~1.15.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.44.0" from @rc-component/trigger@2.2.6
+    node_modules/@rc-component/trigger
+      @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.2.6" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.44.4" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    rc-util@"^5.43.0" from rc-cascader@3.34.0
+    node_modules/rc-cascader
+      rc-cascader@"~3.34.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.25.2" from rc-checkbox@3.5.0
+    node_modules/rc-checkbox
+      rc-checkbox@"~3.5.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.27.0" from rc-collapse@3.9.0
+    node_modules/rc-collapse
+      rc-collapse@"~3.9.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.21.0" from rc-dialog@9.6.0
+    node_modules/rc-dialog
+      rc-dialog@"~9.6.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dialog@"~9.6.0" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.38.1" from rc-drawer@7.2.0
+    node_modules/rc-drawer
+      rc-drawer@"~7.2.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.44.1" from rc-dropdown@4.2.1
+    node_modules/rc-dropdown
+      rc-dropdown@"~4.2.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.32.2" from rc-field-form@2.7.0
+    node_modules/rc-field-form
+      rc-field-form@"~2.7.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.34.1" from rc-image@7.12.0
+    node_modules/rc-image
+      rc-image@"~7.12.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.18.1" from rc-input@1.8.0
+    node_modules/rc-input
+      rc-input@"~1.8.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-input-number@9.5.0
+      node_modules/rc-input-number
+        rc-input-number@"~9.5.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-textarea@1.10.0
+      node_modules/rc-textarea
+        rc-textarea@"~1.10.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    rc-util@"^5.40.1" from rc-input-number@9.5.0
+    node_modules/rc-input-number
+      rc-input-number@"~9.5.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.34.1" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.27.0" from rc-menu@9.16.1
+    node_modules/rc-menu
+      rc-menu@"~9.16.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.44.0" from rc-motion@2.9.5
+    node_modules/rc-motion
+      rc-motion@"^2.0.0" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.9.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-motion@"^2.3.4" from rc-collapse@3.9.0
+      node_modules/rc-collapse
+        rc-collapse@"~3.9.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.3.0" from rc-dialog@9.6.0
+      node_modules/rc-dialog
+        rc-dialog@"~9.6.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dialog@"~9.6.0" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.1" from rc-drawer@7.2.0
+      node_modules/rc-drawer
+        rc-drawer@"~7.2.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.2" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.4.3" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.9.0" from rc-notification@5.6.4
+      node_modules/rc-notification
+        rc-notification@"~5.6.4" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.4.4" from rc-segmented@2.7.0
+      node_modules/rc-segmented
+        rc-segmented@"~2.7.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.0.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.2" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.0.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    rc-util@"^5.20.1" from rc-notification@5.6.4
+    node_modules/rc-notification
+      rc-notification@"~5.6.4" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.37.0" from rc-overflow@1.4.1
+    node_modules/rc-overflow
+      rc-overflow@"^1.3.1" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.2" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    rc-util@"^5.38.0" from rc-pagination@5.1.0
+    node_modules/rc-pagination
+      rc-pagination@"~5.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.43.0" from rc-picker@4.11.3
+    node_modules/rc-picker
+      rc-picker@"~4.11.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.16.1" from rc-progress@4.0.0
+    node_modules/rc-progress
+      rc-progress@"~4.0.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.0.1" from rc-rate@2.13.1
+    node_modules/rc-rate
+      rc-rate@"~2.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.44.1" from rc-resize-observer@1.4.3
+    node_modules/rc-resize-observer
+      rc-resize-observer@"^1.3.1" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.4.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-overflow@1.4.1
+      node_modules/rc-overflow
+        rc-overflow@"^1.3.1" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.2" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.4.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.1.0" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-textarea@1.10.0
+      node_modules/rc-textarea
+        rc-textarea@"~1.10.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-virtual-list@3.18.6
+      node_modules/rc-virtual-list
+        rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+        node_modules/rc-table
+          rc-table@"~7.50.5" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+        node_modules/rc-tree
+          rc-tree@"~5.13.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+    rc-util@"^5.17.0" from rc-segmented@2.7.0
+    node_modules/rc-segmented
+      rc-segmented@"~2.7.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.16.1" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.36.0" from rc-slider@11.1.8
+    node_modules/rc-slider
+      rc-slider@"~11.1.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.16.1" from rc-steps@6.0.1
+    node_modules/rc-steps
+      rc-steps@"~6.0.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.30.0" from rc-switch@4.1.0
+    node_modules/rc-switch
+      rc-switch@"~4.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.44.3" from rc-table@7.50.5
+    node_modules/rc-table
+      rc-table@"~7.50.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.34.1" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.27.0" from rc-textarea@1.10.0
+    node_modules/rc-textarea
+      rc-textarea@"~1.10.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.44.3" from rc-tooltip@6.4.0
+    node_modules/rc-tooltip
+      rc-tooltip@"~6.4.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.16.1" from rc-tree@5.13.1
+    node_modules/rc-tree
+      rc-tree@"~5.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-util@"^5.43.0" from rc-tree-select@5.27.0
+    node_modules/rc-tree-select
+      rc-tree-select@"~5.27.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.2.0" from rc-upload@4.9.0
+    node_modules/rc-upload
+      rc-upload@"~4.9.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-util@"^5.36.0" from rc-virtual-list@3.18.6
+    node_modules/rc-virtual-list
+      rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+  peer react@">=16.9.0" from rc-virtual-list@3.18.6
+  node_modules/rc-virtual-list
+    rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+    node_modules/rc-table
+      rc-table@"~7.50.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+    node_modules/rc-tree
+      rc-tree@"~5.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+  peer react@"^19.1.0" from react-dom@19.1.0
+  node_modules/react-dom
+    peer react-dom@">=16.0.0" from @ant-design/cssinjs@1.23.0
+    node_modules/@ant-design/cssinjs
+      @ant-design/cssinjs@"^1.21.0" from @ant-design/cssinjs-utils@1.1.3
+      node_modules/@ant-design/cssinjs-utils
+        @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @ant-design/cssinjs@"^1.23.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @ant-design/cssinjs-utils@1.1.3
+    node_modules/@ant-design/cssinjs-utils
+      @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.0.0" from @ant-design/icons@5.6.1
+    node_modules/@ant-design/icons
+      @ant-design/icons@"^5.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/color-picker@2.0.1
+    node_modules/@rc-component/color-picker
+      @rc-component/color-picker@"~2.0.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/context@1.4.0
+    node_modules/@rc-component/context
+      @rc-component/context@"^1.4.0" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/mutate-observer@1.1.0
+    node_modules/@rc-component/mutate-observer
+      @rc-component/mutate-observer@"^1.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/portal@1.1.2
+    node_modules/@rc-component/portal
+      @rc-component/portal@"^1.0.0-9" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.1.0" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.0.0-8" from rc-dialog@9.6.0
+      node_modules/rc-dialog
+        rc-dialog@"~9.6.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dialog@"~9.6.0" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.1.1" from rc-drawer@7.2.0
+      node_modules/rc-drawer
+        rc-drawer@"~7.2.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/portal@"^1.0.2" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/qrcode@1.0.0
+    node_modules/@rc-component/qrcode
+      @rc-component/qrcode@"~1.0.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/tour@1.15.1
+    node_modules/@rc-component/tour
+      @rc-component/tour@"~1.15.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from @rc-component/trigger@2.2.6
+    node_modules/@rc-component/trigger
+      @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.2.6" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@"^18.0.0 || ^19.0.0" from @testing-library/react@16.3.0
+    node_modules/@testing-library/react
+      @testing-library/react@"^16.3.0" from the root project
+    peer react-dom@">=16.9.0" from antd@5.25.2
+    node_modules/antd
+      antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-cascader@3.34.0
+    node_modules/rc-cascader
+      rc-cascader@"~3.34.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-checkbox@3.5.0
+    node_modules/rc-checkbox
+      rc-checkbox@"~3.5.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-collapse@3.9.0
+    node_modules/rc-collapse
+      rc-collapse@"~3.9.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-dialog@9.6.0
+    node_modules/rc-dialog
+      rc-dialog@"~9.6.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dialog@"~9.6.0" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-drawer@7.2.0
+    node_modules/rc-drawer
+      rc-drawer@"~7.2.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.11.0" from rc-dropdown@4.2.1
+    node_modules/rc-dropdown
+      rc-dropdown@"~4.2.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-field-form@2.7.0
+    node_modules/rc-field-form
+      rc-field-form@"~2.7.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-image@7.12.0
+    node_modules/rc-image
+      rc-image@"~7.12.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.0.0" from rc-input@1.8.0
+    node_modules/rc-input
+      rc-input@"~1.8.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-input-number@9.5.0
+      node_modules/rc-input-number
+        rc-input-number@"~9.5.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-input@"~1.8.0" from rc-textarea@1.10.0
+      node_modules/rc-textarea
+        rc-textarea@"~1.10.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-input-number@9.5.0
+    node_modules/rc-input-number
+      rc-input-number@"~9.5.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-mentions@2.20.0
+    node_modules/rc-mentions
+      rc-mentions@"~2.20.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-menu@9.16.1
+    node_modules/rc-menu
+      rc-menu@"~9.16.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-menu@"~9.16.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-motion@2.9.5
+    node_modules/rc-motion
+      rc-motion@"^2.0.0" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.9.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-motion@"^2.3.4" from rc-collapse@3.9.0
+      node_modules/rc-collapse
+        rc-collapse@"~3.9.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.3.0" from rc-dialog@9.6.0
+      node_modules/rc-dialog
+        rc-dialog@"~9.6.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dialog@"~9.6.0" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.1" from rc-drawer@7.2.0
+      node_modules/rc-drawer
+        rc-drawer@"~7.2.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.2" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.4.3" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.9.0" from rc-notification@5.6.4
+      node_modules/rc-notification
+        rc-notification@"~5.6.4" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.4.4" from rc-segmented@2.7.0
+      node_modules/rc-segmented
+        rc-segmented@"~2.7.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.0.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-motion@"^2.6.2" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-motion@"^2.0.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-notification@5.6.4
+    node_modules/rc-notification
+      rc-notification@"~5.6.4" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-overflow@1.4.1
+    node_modules/rc-overflow
+      rc-overflow@"^1.3.1" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.2" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-overflow@"^1.3.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-pagination@5.1.0
+    node_modules/rc-pagination
+      rc-pagination@"~5.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-picker@4.11.3
+    node_modules/rc-picker
+      rc-picker@"~4.11.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-progress@4.0.0
+    node_modules/rc-progress
+      rc-progress@"~4.0.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-rate@2.13.1
+    node_modules/rc-rate
+      rc-rate@"~2.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-resize-observer@1.4.3
+    node_modules/rc-resize-observer
+      rc-resize-observer@"^1.3.1" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.4.3" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-overflow@1.4.1
+      node_modules/rc-overflow
+        rc-overflow@"^1.3.1" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.2" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.4.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.1.0" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-textarea@1.10.0
+      node_modules/rc-textarea
+        rc-textarea@"~1.10.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-resize-observer@"^1.0.0" from rc-virtual-list@3.18.6
+      node_modules/rc-virtual-list
+        rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+        node_modules/rc-table
+          rc-table@"~7.50.5" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+        node_modules/rc-tree
+          rc-tree@"~5.13.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+    peer react-dom@">=16.0.0" from rc-segmented@2.7.0
+    node_modules/rc-segmented
+      rc-segmented@"~2.7.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@"*" from rc-select@14.16.8
+    node_modules/rc-select
+      rc-select@"~14.16.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-select@"~14.16.2" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-slider@11.1.8
+    node_modules/rc-slider
+      rc-slider@"~11.1.8" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-steps@6.0.1
+    node_modules/rc-steps
+      rc-steps@"~6.0.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-switch@4.1.0
+    node_modules/rc-switch
+      rc-switch@"~4.1.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-table@7.50.5
+    node_modules/rc-table
+      rc-table@"~7.50.5" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-tabs@15.6.1
+    node_modules/rc-tabs
+      rc-tabs@"~15.6.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-textarea@1.10.0
+    node_modules/rc-textarea
+      rc-textarea@"~1.10.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-tooltip@6.4.0
+    node_modules/rc-tooltip
+      rc-tooltip@"~6.4.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@"*" from rc-tree@5.13.1
+    node_modules/rc-tree
+      rc-tree@"~5.13.1" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+    peer react-dom@"*" from rc-tree-select@5.27.0
+    node_modules/rc-tree-select
+      rc-tree-select@"~5.27.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-upload@4.9.0
+    node_modules/rc-upload
+      rc-upload@"~4.9.0" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-util@5.44.4
+    node_modules/rc-util
+      rc-util@"^5.35.0" from @ant-design/cssinjs@1.23.0
+      node_modules/@ant-design/cssinjs
+        @ant-design/cssinjs@"^1.21.0" from @ant-design/cssinjs-utils@1.1.3
+        node_modules/@ant-design/cssinjs-utils
+          @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @ant-design/cssinjs@"^1.23.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.38.0" from @ant-design/cssinjs-utils@1.1.3
+      node_modules/@ant-design/cssinjs-utils
+        @ant-design/cssinjs-utils@"^1.1.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.31.1" from @ant-design/icons@5.6.1
+      node_modules/@ant-design/icons
+        @ant-design/icons@"^5.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.38.1" from @rc-component/color-picker@2.0.1
+      node_modules/@rc-component/color-picker
+        @rc-component/color-picker@"~2.0.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.27.0" from @rc-component/context@1.4.0
+      node_modules/@rc-component/context
+        @rc-component/context@"^1.4.0" from rc-table@7.50.5
+        node_modules/rc-table
+          rc-table@"~7.50.5" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.24.4" from @rc-component/mutate-observer@1.1.0
+      node_modules/@rc-component/mutate-observer
+        @rc-component/mutate-observer@"^1.1.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.24.4" from @rc-component/portal@1.1.2
+      node_modules/@rc-component/portal
+        @rc-component/portal@"^1.0.0-9" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/portal@"^1.1.0" from @rc-component/trigger@2.2.6
+        node_modules/@rc-component/trigger
+          @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+          node_modules/@rc-component/tour
+            @rc-component/tour@"~1.15.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.2.6" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+          node_modules/rc-dropdown
+            rc-dropdown@"~4.2.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+          node_modules/rc-menu
+            rc-menu@"~9.16.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-mentions@2.20.0
+            node_modules/rc-mentions
+              rc-mentions@"~2.20.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+          node_modules/rc-picker
+            rc-picker@"~4.11.3" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+          node_modules/rc-select
+            rc-select@"~14.16.8" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+          node_modules/rc-tooltip
+            rc-tooltip@"~6.4.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/portal@"^1.0.0-8" from rc-dialog@9.6.0
+        node_modules/rc-dialog
+          rc-dialog@"~9.6.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dialog@"~9.6.0" from rc-image@7.12.0
+          node_modules/rc-image
+            rc-image@"~7.12.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/portal@"^1.1.1" from rc-drawer@7.2.0
+        node_modules/rc-drawer
+          rc-drawer@"~7.2.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/portal@"^1.0.2" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.38.0" from @rc-component/qrcode@1.0.0
+      node_modules/@rc-component/qrcode
+        @rc-component/qrcode@"~1.0.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.24.4" from @rc-component/tour@1.15.1
+      node_modules/@rc-component/tour
+        @rc-component/tour@"~1.15.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.44.0" from @rc-component/trigger@2.2.6
+      node_modules/@rc-component/trigger
+        @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+        node_modules/@rc-component/tour
+          @rc-component/tour@"~1.15.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.2.6" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+        node_modules/rc-dropdown
+          rc-dropdown@"~4.2.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+        node_modules/rc-tooltip
+          rc-tooltip@"~6.4.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.44.4" from antd@5.25.2
+      node_modules/antd
+        antd@"^5.25.2" from the root project
+      rc-util@"^5.43.0" from rc-cascader@3.34.0
+      node_modules/rc-cascader
+        rc-cascader@"~3.34.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.25.2" from rc-checkbox@3.5.0
+      node_modules/rc-checkbox
+        rc-checkbox@"~3.5.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.27.0" from rc-collapse@3.9.0
+      node_modules/rc-collapse
+        rc-collapse@"~3.9.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.21.0" from rc-dialog@9.6.0
+      node_modules/rc-dialog
+        rc-dialog@"~9.6.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dialog@"~9.6.0" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.38.1" from rc-drawer@7.2.0
+      node_modules/rc-drawer
+        rc-drawer@"~7.2.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.44.1" from rc-dropdown@4.2.1
+      node_modules/rc-dropdown
+        rc-dropdown@"~4.2.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.32.2" from rc-field-form@2.7.0
+      node_modules/rc-field-form
+        rc-field-form@"~2.7.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.34.1" from rc-image@7.12.0
+      node_modules/rc-image
+        rc-image@"~7.12.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.18.1" from rc-input@1.8.0
+      node_modules/rc-input
+        rc-input@"~1.8.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-input@"~1.8.0" from rc-input-number@9.5.0
+        node_modules/rc-input-number
+          rc-input-number@"~9.5.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-input@"~1.8.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-input@"~1.8.0" from rc-textarea@1.10.0
+        node_modules/rc-textarea
+          rc-textarea@"~1.10.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+      rc-util@"^5.40.1" from rc-input-number@9.5.0
+      node_modules/rc-input-number
+        rc-input-number@"~9.5.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.34.1" from rc-mentions@2.20.0
+      node_modules/rc-mentions
+        rc-mentions@"~2.20.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.27.0" from rc-menu@9.16.1
+      node_modules/rc-menu
+        rc-menu@"~9.16.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-menu@"~9.16.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.44.0" from rc-motion@2.9.5
+      node_modules/rc-motion
+        rc-motion@"^2.0.0" from @rc-component/trigger@2.2.6
+        node_modules/@rc-component/trigger
+          @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+          node_modules/@rc-component/tour
+            @rc-component/tour@"~1.15.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.2.6" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+          node_modules/rc-dropdown
+            rc-dropdown@"~4.2.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+          node_modules/rc-menu
+            rc-menu@"~9.16.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-mentions@2.20.0
+            node_modules/rc-mentions
+              rc-mentions@"~2.20.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+          node_modules/rc-picker
+            rc-picker@"~4.11.3" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+          node_modules/rc-select
+            rc-select@"~14.16.8" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+          node_modules/rc-tooltip
+            rc-tooltip@"~6.4.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-motion@"^2.9.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-motion@"^2.3.4" from rc-collapse@3.9.0
+        node_modules/rc-collapse
+          rc-collapse@"~3.9.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.3.0" from rc-dialog@9.6.0
+        node_modules/rc-dialog
+          rc-dialog@"~9.6.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-dialog@"~9.6.0" from rc-image@7.12.0
+          node_modules/rc-image
+            rc-image@"~7.12.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-motion@"^2.6.1" from rc-drawer@7.2.0
+        node_modules/rc-drawer
+          rc-drawer@"~7.2.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.6.2" from rc-image@7.12.0
+        node_modules/rc-image
+          rc-image@"~7.12.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.4.3" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-motion@"^2.9.0" from rc-notification@5.6.4
+        node_modules/rc-notification
+          rc-notification@"~5.6.4" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.4.4" from rc-segmented@2.7.0
+        node_modules/rc-segmented
+          rc-segmented@"~2.7.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.0.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-motion@"^2.6.2" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-motion@"^2.0.1" from rc-tree@5.13.1
+        node_modules/rc-tree
+          rc-tree@"~5.13.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+      rc-util@"^5.20.1" from rc-notification@5.6.4
+      node_modules/rc-notification
+        rc-notification@"~5.6.4" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.37.0" from rc-overflow@1.4.1
+      node_modules/rc-overflow
+        rc-overflow@"^1.3.1" from rc-menu@9.16.1
+        node_modules/rc-menu
+          rc-menu@"~9.16.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-menu@"~9.16.0" from rc-tabs@15.6.1
+          node_modules/rc-tabs
+            rc-tabs@"~15.6.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.2" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-overflow@"^1.3.1" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+      rc-util@"^5.38.0" from rc-pagination@5.1.0
+      node_modules/rc-pagination
+        rc-pagination@"~5.1.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.43.0" from rc-picker@4.11.3
+      node_modules/rc-picker
+        rc-picker@"~4.11.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.16.1" from rc-progress@4.0.0
+      node_modules/rc-progress
+        rc-progress@"~4.0.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.0.1" from rc-rate@2.13.1
+      node_modules/rc-rate
+        rc-rate@"~2.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.44.1" from rc-resize-observer@1.4.3
+      node_modules/rc-resize-observer
+        rc-resize-observer@"^1.3.1" from @rc-component/trigger@2.2.6
+        node_modules/@rc-component/trigger
+          @rc-component/trigger@"^2.0.0" from @rc-component/tour@1.15.1
+          node_modules/@rc-component/tour
+            @rc-component/tour@"~1.15.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.2.6" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-dropdown@4.2.1
+          node_modules/rc-dropdown
+            rc-dropdown@"~4.2.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-dropdown@"~4.2.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-menu@9.16.1
+          node_modules/rc-menu
+            rc-menu@"~9.16.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-mentions@2.20.0
+            node_modules/rc-mentions
+              rc-mentions@"~2.20.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-picker@4.11.3
+          node_modules/rc-picker
+            rc-picker@"~4.11.3" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.1.1" from rc-select@14.16.8
+          node_modules/rc-select
+            rc-select@"~14.16.8" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          @rc-component/trigger@"^2.0.0" from rc-tooltip@6.4.0
+          node_modules/rc-tooltip
+            rc-tooltip@"~6.4.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.4.3" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.0.0" from rc-overflow@1.4.1
+        node_modules/rc-overflow
+          rc-overflow@"^1.3.1" from rc-menu@9.16.1
+          node_modules/rc-menu
+            rc-menu@"~9.16.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-mentions@2.20.0
+            node_modules/rc-mentions
+              rc-mentions@"~2.20.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-menu@"~9.16.0" from rc-tabs@15.6.1
+            node_modules/rc-tabs
+              rc-tabs@"~15.6.1" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          rc-overflow@"^1.3.2" from rc-picker@4.11.3
+          node_modules/rc-picker
+            rc-picker@"~4.11.3" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-overflow@"^1.3.1" from rc-select@14.16.8
+          node_modules/rc-select
+            rc-select@"~14.16.8" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.4.0" from rc-picker@4.11.3
+        node_modules/rc-picker
+          rc-picker@"~4.11.3" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.1.0" from rc-table@7.50.5
+        node_modules/rc-table
+          rc-table@"~7.50.5" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.0.0" from rc-tabs@15.6.1
+        node_modules/rc-tabs
+          rc-tabs@"~15.6.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.0.0" from rc-textarea@1.10.0
+        node_modules/rc-textarea
+          rc-textarea@"~1.10.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+          node_modules/rc-mentions
+            rc-mentions@"~2.20.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-resize-observer@"^1.0.0" from rc-virtual-list@3.18.6
+        node_modules/rc-virtual-list
+          rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+          node_modules/rc-select
+            rc-select@"~14.16.8" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-select@"~14.16.2" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+          rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+          node_modules/rc-table
+            rc-table@"~7.50.5" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+          node_modules/rc-tree
+            rc-tree@"~5.13.1" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+            rc-tree@"~5.13.0" from rc-cascader@3.34.0
+            node_modules/rc-cascader
+              rc-cascader@"~3.34.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+            rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+            node_modules/rc-tree-select
+              rc-tree-select@"~5.27.0" from antd@5.25.2
+              node_modules/antd
+                antd@"^5.25.2" from the root project
+      rc-util@"^5.17.0" from rc-segmented@2.7.0
+      node_modules/rc-segmented
+        rc-segmented@"~2.7.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.16.1" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.36.0" from rc-slider@11.1.8
+      node_modules/rc-slider
+        rc-slider@"~11.1.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.16.1" from rc-steps@6.0.1
+      node_modules/rc-steps
+        rc-steps@"~6.0.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.30.0" from rc-switch@4.1.0
+      node_modules/rc-switch
+        rc-switch@"~4.1.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.44.3" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.34.1" from rc-tabs@15.6.1
+      node_modules/rc-tabs
+        rc-tabs@"~15.6.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.27.0" from rc-textarea@1.10.0
+      node_modules/rc-textarea
+        rc-textarea@"~1.10.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-textarea@"~1.10.0" from rc-mentions@2.20.0
+        node_modules/rc-mentions
+          rc-mentions@"~2.20.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.44.3" from rc-tooltip@6.4.0
+      node_modules/rc-tooltip
+        rc-tooltip@"~6.4.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.16.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-util@"^5.43.0" from rc-tree-select@5.27.0
+      node_modules/rc-tree-select
+        rc-tree-select@"~5.27.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.2.0" from rc-upload@4.9.0
+      node_modules/rc-upload
+        rc-upload@"~4.9.0" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-util@"^5.36.0" from rc-virtual-list@3.18.6
+      node_modules/rc-virtual-list
+        rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+        node_modules/rc-select
+          rc-select@"~14.16.8" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-select@"~14.16.2" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+        node_modules/rc-table
+          rc-table@"~7.50.5" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+        node_modules/rc-tree
+          rc-tree@"~5.13.1" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-cascader@3.34.0
+          node_modules/rc-cascader
+            rc-cascader@"~3.34.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+          rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+          node_modules/rc-tree-select
+            rc-tree-select@"~5.27.0" from antd@5.25.2
+            node_modules/antd
+              antd@"^5.25.2" from the root project
+    peer react-dom@">=16.9.0" from rc-virtual-list@3.18.6
+    node_modules/rc-virtual-list
+      rc-virtual-list@"^3.5.2" from rc-select@14.16.8
+      node_modules/rc-select
+        rc-select@"~14.16.8" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-select@"~14.16.2" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.14.2" from rc-table@7.50.5
+      node_modules/rc-table
+        rc-table@"~7.50.5" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+      rc-virtual-list@"^3.5.1" from rc-tree@5.13.1
+      node_modules/rc-tree
+        rc-tree@"~5.13.1" from antd@5.25.2
+        node_modules/antd
+          antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-cascader@3.34.0
+        node_modules/rc-cascader
+          rc-cascader@"~3.34.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+        rc-tree@"~5.13.0" from rc-tree-select@5.27.0
+        node_modules/rc-tree-select
+          rc-tree-select@"~5.27.0" from antd@5.25.2
+          node_modules/antd
+            antd@"^5.25.2" from the root project
+    peerOptional react-dom@">=18" from react-router@7.6.0
+    node_modules/react-router
+      react-router@"7.6.0" from react-router-dom@7.6.0
+      node_modules/react-router-dom
+        react-router-dom@"^7.6.0" from the root project
+    peer react-dom@">=18" from react-router-dom@7.6.0
+    node_modules/react-router-dom
+      react-router-dom@"^7.6.0" from the root project
+    react-dom@"^19.1.0" from the root project
+  peer react@">=18" from react-router@7.6.0
+  node_modules/react-router
+    react-router@"7.6.0" from react-router-dom@7.6.0
+    node_modules/react-router-dom
+      react-router-dom@"^7.6.0" from the root project
+  peer react@">=18" from react-router-dom@7.6.0
+  node_modules/react-router-dom
+    react-router-dom@"^7.6.0" from the root project
+  peer react@">= 16" from react-scripts@5.0.1
+  node_modules/react-scripts
+    react-scripts@"5.0.1" from the root project
+  react@"^19.1.0" from the root project
+
+Could not resolve dependency:
+peer react@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0" from video-react@0.16.0
+node_modules/video-react
+  video-react@"^0.16.0" from the root project
+
+Conflicting peer dependency: react@18.3.1
+node_modules/react
+  peer react@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0" from video-react@0.16.0
+  node_modules/video-react
+    video-react@"^0.16.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
