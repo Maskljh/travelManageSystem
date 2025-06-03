@@ -4,7 +4,7 @@ import {
   CloseCircleOutlined,
   SyncOutlined,
 } from '@ant-design/icons';
-import { Space, Table, Tag, Button, Modal, message, Popconfirm, Form, Image, Avatar, Carousel, Input, theme, FloatButton  } from 'antd';
+import { Space, Table, Tag, Button, Modal, message, Popconfirm, Form, Image, Avatar, Carousel, Input, theme, FloatButton, Radio } from 'antd';
 import axios from 'axios';
 import "video-react/dist/video-react.css";
 import { Player } from 'video-react';
@@ -17,8 +17,47 @@ const onFinishFailed = errorInfo => {
   console.log('Failed:', errorInfo);
 };
 
-
 const App = () => {
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  const [loginForm] = Form.useForm();
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [statusFilter, setStatusFilter] = useState('all');
+  const [filteredTravelList, setFilteredTravelList] = useState([]);
+
+  // Check login status on component mount
+  useEffect(() => {
+    checkLoginStatus();
+  }, []);
+
+  const checkLoginStatus = async () => {
+    try {
+      const response = await axios.get('http://localhost:5000/api/admin/status', {
+        withCredentials: true
+      });
+      if (response.data.isAuthenticated) {
+        setIsAuthenticated(true);
+      } else {
+        setIsLoginModalOpen(true);
+      }
+    } catch (error) {
+      setIsLoginModalOpen(true);
+    }
+  };
+
+  const handleLogin = async (values) => {
+    try {
+      const response = await axios.post('http://localhost:5000/api/admin/login', values, {
+        withCredentials: true
+      });
+      if (response.data.isAuthenticated) {
+        setIsAuthenticated(true);
+        setIsLoginModalOpen(false);
+        message.success('登录成功');
+      }
+    } catch (error) {
+      message.error('用户名或密码错误');
+    }
+  };
 
   const handleAccess = async () => {
     console.log(currentTravel)
@@ -173,29 +212,91 @@ const App = () => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+
+  // Update filtered list when travelList or statusFilter changes
+  useEffect(() => {
+    if (statusFilter === 'all') {
+      setFilteredTravelList(travelList);
+    } else {
+      const filtered = travelList.filter(item => item.status === parseInt(statusFilter));
+      setFilteredTravelList(filtered);
+    }
+  }, [travelList, statusFilter]);
+
   return (
     <>
-      <div
-        style={{
-          padding: 24,
-          minHeight: 360,
-          background: colorBgContainer,
-          borderRadius: borderRadiusLG,
-        }}
-      >
-        <Table 
-          columns={columns} 
-          dataSource={travelList} 
-          rowKey="id" 
-          pagination={{
-            defaultPageSize: 10,
-            showSizeChanger: true,
-            showQuickJumper: true,
-            showTotal: (total) => `共 ${total} 条记录`
+      {!isAuthenticated && (
+        <Modal
+          title="管理员登录"
+          open={isLoginModalOpen}
+          footer={null}
+          closable={false}
+          maskClosable={false}
+        >
+          <Form
+            form={loginForm}
+            onFinish={handleLogin}
+            layout="vertical"
+          >
+            <Form.Item
+              name="adminname"
+              label="用户名"
+              rules={[{ required: true, message: '请输入用户名' }]}
+            >
+              <Input />
+            </Form.Item>
+            <Form.Item
+              name="password"
+              label="密码"
+              rules={[{ required: true, message: '请输入密码' }]}
+            >
+              <Input.Password />
+            </Form.Item>
+            <Form.Item>
+              <Button type="primary" htmlType="submit" block>
+                登录
+              </Button>
+            </Form.Item>
+          </Form>
+        </Modal>
+      )}
+
+      {isAuthenticated && (
+        <div
+          style={{
+            padding: 24,
+            minHeight: 360,
+            background: colorBgContainer,
+            borderRadius: borderRadiusLG,
           }}
-        />
-        <FloatButton.BackTop />
-      </div>
+        >
+          <div style={{ marginBottom: 16 }}>
+            <Radio.Group 
+              value={statusFilter} 
+              onChange={(e) => setStatusFilter(e.target.value)}
+              buttonStyle="solid"
+            >
+              <Radio.Button value="all">全部</Radio.Button>
+              <Radio.Button value="0">待审核</Radio.Button>
+              <Radio.Button value="1">审核通过</Radio.Button>
+              <Radio.Button value="2">审核失败</Radio.Button>
+            </Radio.Group>
+          </div>
+
+          <Table 
+            columns={columns} 
+            dataSource={filteredTravelList} 
+            rowKey="id" 
+            pagination={{
+              defaultPageSize: 10,
+              showSizeChanger: true,
+              showQuickJumper: true,
+              showTotal: (total) => `共 ${total} 条记录`
+            }}
+          />
+          <FloatButton.BackTop />
+        </div>
+      )}
 
       <Modal
         title="审核游记"
