@@ -1,26 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import {
   HomeOutlined,
-  DiffOutlined
+  DiffOutlined,
+  UserOutlined,
+  TeamOutlined,
+  FileOutlined
 } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import "video-react/dist/video-react.css";
 import { Outlet, useNavigate } from "react-router-dom"
 const { Content, Footer, Sider } = Layout;
 
-
+function getItem(label, key, icon, children) {
+  return {
+    key,
+    icon,
+    children,
+    label,
+  };
+}
 const items = [
-  {
-    label: '首页',
-    key: '/',
-    icon: <HomeOutlined />,
-  },
-  {
-    label: '测试',
-    key: '/test',
-    icon: <DiffOutlined />,
-  },
-]
+  getItem('首页', '/', <HomeOutlined />),
+  getItem('测试', '/test', <DiffOutlined />),
+  getItem('demo', '', <UserOutlined />, [
+    getItem('demo1', '/demo1'),
+    getItem('demo2', '/demo2'),
+    getItem('demo3', '/demo3'),
+  ])
+];
+
 
 const App = () => {
   const navigate = useNavigate()
@@ -29,10 +37,24 @@ const App = () => {
     console.log(e)
     navigate(e.key)
     setCurrentKey(e.key)
-    // 从 items 数组中找到对应的菜单项
-    const clickedItem = items.find(item => item.key === e.key)
+    
+    // 递归查找菜单项
+    const findMenuItem = (items, key) => {
+      for (const item of items) {
+        if (item.key === key) {
+          return item;
+        }
+        if (item.children) {
+          const found = findMenuItem(item.children, key);
+          if (found) return found;
+        }
+      }
+      return null;
+    };
+
+    const clickedItem = findMenuItem(items, e.key);
     if (clickedItem) {
-      setCurrentLabel(clickedItem.label)
+      setCurrentLabel(clickedItem.label);
     }
   }
 

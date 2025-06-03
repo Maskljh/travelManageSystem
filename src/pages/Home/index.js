@@ -4,11 +4,11 @@ import {
   CloseCircleOutlined,
   SyncOutlined,
 } from '@ant-design/icons';
-import { Space, Table, Tag, Button, Modal, message, Popconfirm, Form, Image, Avatar, Carousel, Input,theme } from 'antd';
+import { Space, Table, Tag, Button, Modal, message, Popconfirm, Form, Image, Avatar, Carousel, Input, theme, FloatButton  } from 'antd';
 import axios from 'axios';
 import "video-react/dist/video-react.css";
 import { Player } from 'video-react';
-import { NavLink,Outlet } from "react-router-dom"
+import { NavLink, Outlet } from "react-router-dom"
 
 const onFinish = values => {
   console.log('Success:', values);
@@ -183,7 +183,18 @@ const App = () => {
           borderRadius: borderRadiusLG,
         }}
       >
-        <Table columns={columns} dataSource={travelList} rowKey="id" />
+        <Table 
+          columns={columns} 
+          dataSource={travelList} 
+          rowKey="id" 
+          pagination={{
+            defaultPageSize: 10,
+            showSizeChanger: true,
+            showQuickJumper: true,
+            showTotal: (total) => `共 ${total} 条记录`
+          }}
+        />
+        <FloatButton.BackTop />
       </div>
 
       <Modal
@@ -192,10 +203,10 @@ const App = () => {
         open={isModalOpen}
         onCancel={handleCancel}
         footer={[
-          <Button key="access" onClick={handleAccess}>
+          <Button key="access" type="primary"  onClick={handleAccess}>
             通过
           </Button>,
-          <Button key="reject" onClick={handleReject}>
+          <Button key="reject" type="primary" danger onClick={handleReject}>
             拒绝
           </Button>
         ]}
